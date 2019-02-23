@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HackthonProjectNameHolder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hackillinois2019/index/templates" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/index/migrations/template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/index/template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/index/templates" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/templates" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+{% if Group_name_list %}
+    <ul>
+    {% for group_name in Group_name_list %}
+        <li><a href="/polls/{{ Group.name }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No groups are available.</p>
+{% endif %}

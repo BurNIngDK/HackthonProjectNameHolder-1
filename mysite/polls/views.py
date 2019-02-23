@@ -1,8 +1,10 @@
 from django.shortcuts import render
-
-# Create your views here.
 from django.http import HttpResponse
+from .models import Group
+# Create your views here.
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the index.")
+	group_name_list = Group.objects.order_by('-name')[:10]
+	context = {'group_name_list': group_name_list}
+	return render(request, '/registration/user_test.html', context)
